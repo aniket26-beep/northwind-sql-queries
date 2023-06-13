@@ -1,0 +1,1 @@
+SELECT suppliers.supplier_id FROM suppliers INNER JOIN products on suppliers.supplier_id = products.supplier_id INNER JOIN categories on products.category_id = categories.category_id WHERE category_name = "Seafood"

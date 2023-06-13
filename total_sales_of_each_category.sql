@@ -1,0 +1,1 @@
+SELECT category)_id, SUM(quantity_per_unit * unit_price) AS total_sales FROM products p INNER JOIN orders o on product_id GROUP BY category_id

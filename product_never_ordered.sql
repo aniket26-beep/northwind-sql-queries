@@ -1,0 +1,1 @@
+SELECT product_id, product_name FROM products LEFT JOIN orders ON product_id WHERE units_on_order = 0;

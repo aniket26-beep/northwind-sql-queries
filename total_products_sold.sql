@@ -1,0 +1,1 @@
+SELECT SUM(quantity) FROM order_details GROUP BY product_id

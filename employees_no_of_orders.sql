@@ -1,0 +1,1 @@
+SELECT e.employee_id, e.first_name, COUNT(o.order_id) AS order_count FROM employees e LEFT JOIN orders o on e.employee_id = o.employee_id GROUP BY e.employee_id, e.first_name

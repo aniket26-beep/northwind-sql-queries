@@ -1,0 +1,1 @@
+SELECT COUNT(OrderID) AS NumberOfOrders, CustomerID FROM Orders GROUP BY CustomerID WHERE NumberOfOrders > 10
