@@ -1,0 +1,1 @@
+SELECT e.employee_id, COUNT(*) AS order_count FROM employees e JOIN orders o ON e.employee_id = o.employee_id GROUP BY e.employee_id HAVING COUNT(*)>100

@@ -1,0 +1,1 @@
+SELECT product_name, product_id, category_id, MAX(unit_price) AS max_price FROM products GROUP BY category_id

@@ -1,0 +1,1 @@
+SELECT ship_country, COUNT(*) AS COUNT FROM orders GROUP BY ship_country ORDER BY COUNT DESC LIMIT 1

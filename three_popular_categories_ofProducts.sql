@@ -1,0 +1,1 @@
+select p.category_id, product_name, COUNT(*) AS order_count FROM products p JOIN orderso on p.product_id GROUP BY p.category_id ORDER BY ORDER_COUNT DESC LIMIT 3

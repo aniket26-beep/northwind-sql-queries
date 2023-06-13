@@ -1,0 +1,1 @@
+SELECT category_id, AVG(unit_price) AS average_price FROM products GROUP BY category_id

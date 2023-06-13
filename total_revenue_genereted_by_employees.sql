@@ -1,0 +1,1 @@
+SELECT employee_id, first_name, SUM(o.quantity * o.unit_price) AS total_revenue FROM order_details o JOIN employees e ON employee_id GROUP BY employee_id
